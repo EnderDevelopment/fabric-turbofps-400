@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost263",
+  "version": "${version}",
+  "name": "FPS Boost 26.3",
+  "description": "Client-side performance settings for Minecraft 26.3.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.enderdevelopment.fpsboost.FpsBoostClient"
+    ]
+  },
+  "depends": {
+    "minecraft": "~26.3",
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*"
+  }
+}
